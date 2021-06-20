@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head lang="en">
+        <meta charset="utf-8">
+        <title>Black Jack</title>
+        <link rel="stylesheet" href="blackJack.css">
+    </head>
+
+    <body>
+        <section class="container">
+            <div class="main-content">
+                <!-- create the tittle of the game -->
+                <h1>BlackJack </h1> 
+
+                <!-- show if in, out, or game over message -->
+                <p id="message-el">Want to play a round?</p>
+                <!-- show the current cards of the player -->
+                <p id="cards-el">Cards:</p>
+                <!-- show the sum to determine if in or out of the game -->
+                <p id="sum-el">Sum:</p>
+                
+                <!-- place the buttons to start and new card -->
+                <button onclick="startGame()">START GAME</button>
+                <button onclick="newCard()">NEW CARD</button>
+                
+                <!-- Show name of player and total money -->
+                <p id="player-el">Luis: $190</p>
+            </div>
+        </section>
+
+        <script src="blackJack.js"></script>
+    </body>
+</html>
